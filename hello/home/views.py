@@ -16,7 +16,7 @@ def about(request):
     # return HttpResponse("this is about page")
     return render(request,'about.html',context)
 def services(request):
-    # return HttpResponse("this is services page")
+#     # return HttpResponse("this is services page")
     return render(request,'services.html',context)
 def contact(request):
     if request.method=="POST":
